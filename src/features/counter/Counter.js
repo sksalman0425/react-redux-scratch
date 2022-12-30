@@ -20,19 +20,20 @@ export default function Counter() {
   return (
     <div>
       <div>
+      <span>{count}</span> <br/>
         <button
           aria-label="Increment value"
           onClick={handleOnIncrementClick}
         >
           Increment
         </button>
-        <span>{count}</span>
+    
         <button
           aria-label="Decrement value"
           onClick={handleOnDecrementClick}
         >
           Decrement
-        </button>
+        </button> <br/>
         <input
         aria-label="set increment Amount"
         value={incrementAmount}
