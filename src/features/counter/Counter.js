@@ -20,7 +20,7 @@ export default function Counter() {
   return (
     <div>
       <div>
-      <span>Counter : {count}</span> <br/>
+      <span>Counter Value : {count}</span> <br/>
         <button
           aria-label="Increment value"
           onClick={handleOnIncrementClick}
